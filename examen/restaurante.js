@@ -46,7 +46,7 @@ class Restaurante {
     }
 }
 
-// Ejemplo de uso
+
 const restaurante = new Restaurante(); 
 const plato1 = new Plato("Salchipapa", 8000); 
 const plato2 = new Plato("Hamburguesa", 10000); 
@@ -55,9 +55,9 @@ restaurante.crearPedido(1);  // Crea un pedido para la mesa 1
 restaurante.agregarPlato(1, plato1); 
 restaurante.agregarPlato(1, plato2); 
 
-// Mostrar en consola los platos pedidos y el total a pagar
+i
 console.log(` mesa 1: ${restaurante.pedidos[1].obtenerPlatos()}`); // Nombres de los platos
-console.log(`Total : $${restaurante.pedidos[1].total}`); // Total acumulado
+console.log(`Total : $${restaurante.pedidos[1].total}`); // Total 
 
 
 // fain, map, rebius fain tampoco
