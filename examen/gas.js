@@ -51,11 +51,11 @@ class Gas {
 
     // Método para mostrar los valores de las propiedades y la masa calculada
     mostrarValores() {
-        console.log(`Presión: ${this._presion} Pa`);                     
-        console.log(`Volumen: ${this._volumen} m³`);                     
-        console.log(`Temperatura: ${this._temperatura} K`);              
-        console.log(`Constante del gas: ${this._constanteGas} J/(kg·K)`); 
-        console.log(`Masa del gas: ${this.calcularMasa().toFixed(3)} kg`); 
+        console.log(`Presión: ${this._presion} `);                     
+        console.log(`Volumen: ${this._volumen} `);                     
+        console.log(`Temperatura: ${this._temperatura} `);              
+        console.log(`Constante del gas: ${this._constanteGas} `); 
+        console.log(`Masa del gas: ${this.calcularMasa().toFixed(3)} `); 
     }
 }
 
