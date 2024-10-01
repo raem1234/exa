@@ -60,4 +60,4 @@ console.log(` mesa 1: ${restaurante.pedidos[1].obtenerPlatos()}`); // Nombres de
 console.log(`Total : $${restaurante.pedidos[1].total}`); // Total 
 
 
-// fain, map, rebius fain tampoco
+
